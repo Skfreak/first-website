@@ -1,0 +1,19 @@
+.btn-red,.btn-blue,.btn-black,.btn-yellow{
+	border-radius: 8px;	
+	height: 35px;
+	border:5px;
+	}
+.btn-black{
+	background: black;
+	color: white;
+}
+.btn-blue{
+	background: aqua;
+	}
+.btn-red{
+	background-color: darkred;
+	color: white;
+}
+.btn-yellow{
+background:yellow;
+}

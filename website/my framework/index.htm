@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+    <title>geekfreak</title>
+    <style>
+        .hpp:hover{ color:black;}
+        .hpd:hover{ box-shadow: 5px 5px 80px yellow; border:4px solid yellow; border-radius: 5px}
+    </style>
+    <script src="mod.js" ></script>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="mywork.css">
+    <link rel="stylesheet" href="w3.css">
+     
+</head>
+<body >
+    <nav class="w3-topnav w3-dark-grey" style="width:100%;position:fixed">
+        <a href="#">Home</a>
+        <a href="parts/amd/amd.htm">AMD</a>
+        <a href="parts/nvidia/nvidia.htm">nVidia</a>
+        <a href="parts/intel/intel.htm">Intel</a>
+        
+        <div class="w3-dropdown-hover">
+            <a href="#">Games</a>
+            <div class="w3-dropdown-content w3-border " style="background-color:black;color:white">
+            <a href="parts/games/frame.htm" class="hpp">Android Games</a>
+            <a href="404.htm" class="hpp">Nintendo Games</a>
+            <a href="#" class="hpp">PlayStations/Xbox</a>
+            <a href="#" class="hpp">----PC Games----</a>
+            </div>
+        </div>
+        <a href="forum.html">Forum</a>
+        
+        
+        <a style="float:right; " href="parts/form.htm">Sign Up</a>
+        <a style="float:right; " onclick="document.getElementById('id01').style.display='block'">Sign In</a>
+        <input style="float:right;border-radius:12px;color:black" type="text" >
+        <a href="#" style="float:right; ">Search</a>
+          
+        
+
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container w3-blue"> 
+                    <span onclick="document.getElementById('id01').style.display='none'" 
+                          class="w3-closebtn">X</span>
+                    <h2>Sign In</h2>
+                </header>
+              <div class="w3-container">
+        <form class="w3-container">
+                <div class="w3-group"> 
+                        <input class="w3-input" type="text" style="color:black" required id="user" >
+                        <label class="w3-label">Userame</label>
+                </div>
+            <div class="w3-group"> 
+                    <input class="w3-input" type="password" style="color:black" required id="pass">
+                    <label class="w3-label">Password</label>
+            </div>
+               <div style="display:inline-block">
+                    <input type="checkbox" style="display:inline-block" >
+                    <p style="color:black;display:inline-block">Remember me</p> 
+                </div>
+                   
+           <div> <button class="w3-btn w3-black" style="margin:bottom:5px;" onclick="fun()  ">Submit</button>
+            </div>
+               <br>
+                  </form>
+                </div>
+                
+        </div>
+        </div>
+    
+    </nav>
+    
+    
+    <div style="background-image:url(large.jpg);background-repeat:no-repeat;background-size:cover">
+    
+    <br><br><br>
+        
+    <div style="display:inline-block;float:left;margin-top:100px;margin-left:5px;position:fixed" class="hpd">
+        <button type="button" class="w3-btn w3-red " onclick="location.href='https://plus.google.com'" style="width:100px">Google+</button>
+        
+    </div>
+    
+    <div style="display:inline-block;float:left;margin-top:150px;margin-left:5px;position:fixed;" class="hpd">
+        <button type="button" class="w3-btn w3-blue " style="width:100px" onclick="location.href='http://twitter.com'">Twitter</button>
+        
+    </div>
+    
+        <div style="display:inline-block;float:left;margin-top:200px;margin-left:5px;position:fixed" class="hpd">
+        <button type="button" class="w3-btn w3-brown " onclick="location.href='http://instagram.com'" style="width:100px">Instagram</button>
+        
+    </div>
+        
+        <div style="display:inline-block;float:left;margin-top:250px;margin-left:5px;position:fixed" class="hpd">
+        <button type="button" class="w3-btn w3-blue " style="width:100px" onclick="location.href='http://facebook.com'">Facebook</button>
+        
+    </div>
+        
+    <div style="display:inline-block;float:left;margin-top:300px;margin-left:5px;position:fixed" class="hpd">
+        <button type="button" class="w3-btn w3-orange " onclick="location.href='http://linkedin.com'" style="width:100px">LinkedIN</button>
+        
+    </div>
+    
+        
+        
+    <div style="display:inline-block;">
+         <div class="w3-card-4" style="display:inline-block;width:40%;margin-left:150px">
+ 
+        <header class="w3-container w3-red">
+            <h1>AMD</h1>
+        </header>
+
+        <div class="w3-container">
+        <img src="amd.jpg" style="max-width:100%;max-height:100%">
+        </div>
+    </div>
+        <div class="w3-card-4" style="display:inline-block;width:40%;float:right;margin-right:100px">
+ 
+        <header class="w3-container w3-green">
+            <h1>nVidia</h1>
+        </header>
+
+        <div class="w3-container">
+        <img src="nvidia.jpg" style="max-width:100%;max-height:100%">
+        
+        </div>
+        </div>
+        <div class="w3-card-4" style="display:inline-block;width:40%;float:left;margin-left:150px;margin-top:20px">
+ 
+        <header class="w3-container w3-blue">
+            <h1>Intel</h1>
+        </header>
+
+        <div class="w3-container">
+        <img src="intel.jpg" style="max-width:100%;max-height:100%">
+        
+        </div>
+        </div>
+        <div class="w3-card-4" style="display:inline-block;width:40%;float:right;margin-right:100px;margin-top:20px">
+ 
+        <header class="w3-container w3-orange">
+            <h1 style="color:white">Games</h1>
+        </header>
+
+        <div class="w3-container">
+            <img src="tomb.jpg" style="max-width:100%;max-height:100%">
+        </div>
+        </div>
+        
+        
+        </div>
+        <br>.
+    </div>
+    
+        <div class="w3-card-4" >
+ 
+        <header class="w3-container w3-brown">
+            <p style="font-size:15pt;display:inline-block">Hey YO!<sup>copyright@sk</sup></p>
+            
+            
+            <p style="float:right;display:inline-block">
+            
+            
+            <ul style="float:right;display:inline-block">Contact me
+                <li href="#">By email(freak41414@gmail.com)</li>
+                <li href="#">Phone: 8140005841</li>
+                <li href="#">Enrollment: 130280107104</li>
+                
+            </ul>
+            </p>
+            <button type="button" style="display:inline-block;border-radius:5px;margin-bottom:10px" onclick="window.open('abtme.htm')" class="w3-btn">About Me</button>
+            
+        </header>
+        </div>
+    
+    
+    
+    
+
+
+</body>
+</html>

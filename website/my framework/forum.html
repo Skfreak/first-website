@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+	<title>Forum</title>
+
+    <style>
+        .mrgl{ margin-left: 20px;}
+        .hv:hover{ background-color: blue;}
+        .hpp:hover{ color:black;}
+        .hpd:hover{ box-shadow: 5px 5px 80px yellow; border:4px solid yellow; border-radius: 5px}
+    </style>
+    <script src="mod.js" ></script>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="mywork.css">
+    <link rel="stylesheet" href="w3.css">
+     
+</head>
+<body >
+    <nav class="w3-topnav w3-dark-grey" style="width:100%;position:fixed">
+        <a href="#">Home</a>
+        <a href="parts/amd/amd.htm">AMD</a>
+        <a href="parts/nvidia/nvidia.htm">nVidia</a>
+        <a href="parts/intel/intel.htm">Intel</a>
+        
+        <div class="w3-dropdown-hover">
+            <a href="#">Games</a>
+            <div class="w3-dropdown-content w3-border " style="background-color:black;color:white">
+            <a href="parts/games/frame.htm" class="hpp">Android Games</a>
+            <a href="404.htm" class="hpp">Nintendo Games</a>
+            <a href="#" class="hpp">PlayStations/Xbox</a>
+            <a href="#" class="hpp">----PC Games----</a>
+            </div>
+        </div>
+        <a href="#">Forum</a>
+        
+        
+        <a style="float:right; " href="parts/form.htm">Sign Up</a>
+        <a style="float:right; " onclick="document.getElementById('id01').style.display='block'">Sign In</a>
+        <input style="float:right;border-radius:12px;color:black" type="text" >
+        <a href="#" style="float:right; ">Search</a>
+          
+        
+
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container w3-blue"> 
+                    <span onclick="document.getElementById('id01').style.display='none'" 
+                          class="w3-closebtn">X</span>
+                    <h2>Sign In</h2>
+                </header>
+              <div class="w3-container">
+        <form class="w3-container">
+                <div class="w3-group"> 
+                        <input class="w3-input" type="text" style="color:black" required id="user" >
+                        <label class="w3-label">Userame</label>
+                </div>
+            <div class="w3-group"> 
+                    <input class="w3-input" type="password" style="color:black" required id="pass">
+                    <label class="w3-label">Password</label>
+            </div>
+               <div style="display:inline-block">
+                    <input type="checkbox" style="display:inline-block" >
+                    <p style="color:black;display:inline-block">Remember me</p> 
+                </div>
+                   
+           <div> <button class="w3-btn w3-black" style="margin:bottom:5px;" onclick="fun()  ">Submit</button>
+            </div>
+               <br>
+                  </form>
+                </div>
+                
+        </div>
+        </div>
+    
+    </nav>
+    
+    
+    <div style="background-color:black;">
+    
+    <br><br><br>
+        <div class="hv" style="margin-left:20px;width:80%;background-color:white;border-radius:20px;" >
+        
+        <p class="mrgl"><strong>Gamers Community</strong></p>
+        <p class="mrgl">Here you can find all about games. Whatever you want , wherever you want and whenever you want</p>
+        <p class="mrgl">
+            The different discussions done are :
+            <ul>
+            <li>Types of games</li>
+                <li>Minimum requirements of games</li>
+                <li>Walkthroughs..etc.</li>
+            </ul>
+            
+            </p>
+        
+        <a href="#" style="color:blue" class="mrgl">Read above topics....</a>
+     
+        
+        
+        
+        </div>
+     <div class="hv" style="margin-left:20px;width:80%;background-color:white;border-radius:20px;" >
+        
+        <p class="mrgl"><strong>Graphics Cards Discussions</strong></p>
+        <p class="mrgl">This page is all about graphics Cards. You will know everything from here. Doesn't matter whether you are a newbie or a pro. There is always some here for you.
+        <p class="mrgl">
+            The different discussions done are :
+            <ul>
+            <li>Workstation Graphics Cards</li>
+                <li>Graphics Card recommendation for a new system</li>
+                <li>Other stuff</li>
+            </ul>
+            
+            </p>
+        
+        <a href="#" style="color:blue" class="mrgl">Read above topics....</a>
+     
+        
+        
+        
+        </div>
+     <div class="hv" style="margin-left:20px;width:80%;background-color:white;border-radius:20px;" >
+        
+        <p class="mrgl"><strong>Processors </strong></p>
+        <p class="mrgl">Wanna know about which processor you want: well here is the place that will help you to do so</p>
+        <p class="mrgl">
+             Categories/ Sections :
+            <ul style="list-style-type:circle">
+            <li>Types of processors</li>
+                <li>Best processor in your budget</li>
+                <li>Overclocking and tuning the processor..etc.</li>
+            </ul>
+            
+            </p>
+        
+        <a href="#" style="color:blue" class="mrgl">Read above topics....</a>
+     
+        
+        
+        
+        </div>
+        
+        
+        
+        
+        <br>
+    </div>
+    
+        <div class="w3-card-4" >
+ 
+        <header class="w3-container w3-brown">
+            <p style="font-size:15pt;display:inline-block">Hey YO!<sup>copyright@sk</sup></p>
+            
+            
+            <p style="float:right;display:inline-block">
+            
+            
+            <ul style="float:right;display:inline-block">Contact me
+                <li href="#">By email(freak41414@gmail.com)</li>
+                <li href="#">Phone: 8140005841</li>
+                <li href="#">Enrollment: 130280107104</li>
+                
+            </ul>
+            </p>
+            <button type="button" style="display:inline-block;border-radius:5px;margin-bottom:10px" onclick="window.open('abtme.htm')" class="w3-btn">About Me</button>
+            
+        </header>
+        </div>
+    
+    
+    
+    
+
+
+</body>
+</html>
